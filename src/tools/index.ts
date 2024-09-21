@@ -9,6 +9,7 @@ import { tool as xmlToJson } from './xml-to-json';
 import { tool as jsonToXml } from './json-to-xml';
 import { tool as regexTester } from './regex-tester';
 import { tool as regexMemo } from './regex-memo';
+import { tool as pasteAsMarkdown } from './paste-as-markdown';
 import { tool as markdownToHtml } from './markdown-to-html';
 import { tool as apiTester } from './api-tester';
 import { tool as curlConverter } from './curl-converter';
@@ -220,6 +221,7 @@ export const toolsByCategory: ToolCategory[] = [
       textDiff,
       numeronymGenerator,
       asciiTextDrawer,
+      pasteAsMarkdown,
     ],
   },
   {
