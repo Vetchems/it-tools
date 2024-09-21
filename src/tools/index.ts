@@ -1,7 +1,8 @@
 import { tool as base64FileConverter } from './base64-file-converter';
 import { tool as base64StringConverter } from './base64-string-converter';
 import { tool as basicAuthGenerator } from './basic-auth-generator';
-import { tool as emailNormalizer } from './email-normalizer';
+import { tool as emailNormalizer } from './email-normalizer';import { tool as jsUnobfuscator } from './js-unobfuscator';
+
 import { tool as asciiTextDrawer } from './ascii-text-drawer';
 import { tool as textToUnicode } from './text-to-unicode';
 import { tool as safelinkDecoder } from './safelink-decoder';
@@ -156,6 +157,7 @@ export const toolsByCategory: ToolCategory[] = [
       safelinkDecoder,
       apiTester,
       asciiTextDrawer,
+      jsUnobfuscator,
     ],
   },
   {
